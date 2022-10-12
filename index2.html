@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form에 대해 알아보자</title>
+  </head>
+  <body>
+    <h3>버튼</h3>
+    <input type="button" value="클릭하세요" onclick="alert('클릭하셨습니다')" />
+    <hr />
+
+    <h3>체크박스</h3>
+    <input type="checkbox" name="선택1" value="1" checked /> 1번 선택지><br />
+    <input type="checkbox" name="선택2" value="2" /> 2번 선택지<br />
+    <input type="checkbox" name="선택3" value="3" /> 3번 선택지
+    <hr />
+
+    <h3>색깔</h3>
+    <input type="color" name="색깔" />
+    <hr />
+
+    <h3>날짜</h3>
+    <input type="date" name="날짜" />
+    <hr />
+
+    <h3>날짜와 시간</h3>
+    <input type="datetime" name="생년월일" />
+    <hr />
+
+    <h3>현재시간</h3>
+    <input type="datetime-local" name="현재시간" />
+    <hr />
+
+    <h3>이메일</h3>
+    <input type="email" name="이메일" />
+    <hr />
+
+    <h3>파일전송</h3>
+    <input type="file" name="파일전송" />
+    <hr />
+
+    <h3>이미지전송</h3>
+    <input type="image" name="이미지전송" />
+    <hr />
+
+    <h3>히든</h3>
+    <input type="hidden" name="히든은 안보입니다" value="Norway" />
+    Hidden은 보이지 않습니다.
+    <hr />
+
+    <h3>이미지</h3>
+    <input type="image" src="image.jpg" alt="Submit" width="48" height="60" />
+    <hr />
+
+    <h3>현재 달</h3>
+    <input type="month" name="생일" />
+    <hr />
+
+    <h3>숫자</h3>
+    <input tpye="number" name="숫자" min="2" max="10" step="2" value="2" />
+    <hr />
+
+    <h3>비밀번호</h3>
+    <input type="password" name="pwd" />
+    <hr />
+
+    <h3>동그란 버튼</h3>
+    <input type="radio" name="성별" value="남자" checked /> 남자<br />
+    <input type="radio" name="성별" value="여자" /> 여자
+    <hr />
+
+    <h3>범위</h3>
+    <input type="range" name="범위" min="0" max="10" step="1" value="5" />
+    <hr />
+
+    <h3>초기화</h3>
+    <input type="reset" />
+    <hr />
+
+    <h3>검색</h3>
+    <input type="search" name="검색" />
+    <hr />
+
+    <h3>제출</h3>
+    <input type="submit" value="Submit" />
+    <hr />
+
+    <h3>전화번호</h3>
+    <input type="tel" name="전화번호" />
+    <hr />
+
+    <h3>문구</h3>
+    <input type="text" name="입력하세요" />
+    <hr />
+
+    <h3>시간</h3>
+    <input type="time" name="시간입력" />
+    <hr />
+
+    <h3>url</h3>
+    <input type="url" name="my url" />
+    <hr />
+
+    <h3>week</h3>
+    <input type="week" name="my week" />
+    <hr />
+
+    <select name="고르세요">
+      <option value="1번" selected>1번</option>
+      <option value="2번">2번</option>
+    </select>
+    <select name="optgroup은 뭘까요">
+      <optgroup label="1번 과일">
+        <option value="사과">사과</option>
+        <option value="딸기">딸기</option>
+      </optgroup>
+      <optgroup label="2번 과일">
+        <option value="수박">수박</option>
+        <option value="바나나">바나나</option>
+      </optgroup>
+    </select>
+
+    <textarea name="massage" rows="10" cols="30">여기에 입력해주세요</textarea>
+
+    <fieldset>
+      <legend>Log in</legend>
+      Username <input type="text" id="id" value="입력해주세요" /><br />
+      password <input type="text" id="password" value="비밀번호" />
+      <hr />
+    </fieldset>
+  </body>
+</html>
